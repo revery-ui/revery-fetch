@@ -24,7 +24,7 @@
     "@opam/js_of_ocaml-compiler": "github:ocsigen/js_of_ocaml:js_of_ocaml-compiler.opam#db257ce",
     "@brisk/brisk-reconciler": "github:briskml/brisk-reconciler#daa00be",
     "rebez": "github:jchavarri/rebez#46cbc183",
-    "@opam/ssl": "github:bryphe/ocaml-ssl#0922e94"
+    "@opam/ssl": "github:bryphe/ocaml-ssl#7e9eabf"
   },
   "scripts": {
    "format": "bash -c \"refmt --in-place *.re\"",
