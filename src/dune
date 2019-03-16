@@ -1,0 +1,4 @@
+(library
+    (name revery_fetch)
+    (public_name revery-fetch)
+    (libraries Revery lwt lwt.unix))
