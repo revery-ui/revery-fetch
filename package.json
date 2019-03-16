@@ -10,7 +10,13 @@
   "dependencies": {
     "ocaml": "~4.7.0",
     "revery": "^0.13.0",
-    "@opam/dune": "*"
+    "@opam/dune": "*",
+    "@opam/yojson": "^1.5.0",
+    "@opam/cohttp": "^1.2.0",
+    "@opam/cohttp-lwt-unix": "^1.2.0",
+    "@opam/sexplib": "v0.11.0",
+    "@opam/lwt_ssl": "*",
+    "@opam/ssl": "*"
   },
   "resolutions": {
     "@opam/cmdliner": "1.0.2",
@@ -18,7 +24,9 @@
     "@opam/js_of_ocaml": "github:ocsigen/js_of_ocaml:js_of_ocaml.opam#db257ce",
     "@opam/js_of_ocaml-compiler": "github:ocsigen/js_of_ocaml:js_of_ocaml-compiler.opam#db257ce",
     "@brisk/brisk-reconciler": "github:briskml/brisk-reconciler#daa00be",
-    "rebez": "github:jchavarri/rebez#46cbc183"
+    "rebez": "github:jchavarri/rebez#46cbc183",
+    "@opam/ssl": "github:bryphe/ocaml-ssl#0922e94",
+    "esy-openssl": "link:../esy-openssl"
   },
   "scripts": {
    "format": "bash -c \"refmt --in-place *.re\"",
