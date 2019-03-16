@@ -1,6 +1,6 @@
 {
   "scripts": {
-      "run": "echo hello"
+      "run": "esy '@example' x Hackernews"
   },
   "source": "./package.json",
   "override": {
