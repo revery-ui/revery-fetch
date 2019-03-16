@@ -15,6 +15,7 @@
     "@opam/cohttp": "^1.2.0",
     "@opam/cohttp-lwt-unix": "^1.2.0",
     "@opam/sexplib": "v0.11.0",
+    "@opam/lwt_ssl": "*",
     "@opam/ssl": "*"
   },
   "resolutions": {
@@ -24,7 +25,8 @@
     "@opam/js_of_ocaml-compiler": "github:ocsigen/js_of_ocaml:js_of_ocaml-compiler.opam#db257ce",
     "@brisk/brisk-reconciler": "github:briskml/brisk-reconciler#daa00be",
     "rebez": "github:jchavarri/rebez#46cbc183",
-    "@opam/ssl": "github:bryphe/ocaml-ssl#7e9eabf"
+    "@opam/ssl": "github:bryphe/ocaml-ssl#0922e94",
+    "esy-openssl": "link:../esy-openssl"
   },
   "scripts": {
    "format": "bash -c \"refmt --in-place *.re\"",
