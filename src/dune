@@ -1,4 +1,4 @@
 (library
     (name revery_fetch)
     (public_name revery-fetch)
-    (libraries Revery lwt lwt.unix))
+    (libraries cohttp cohttp-lwt-unix Revery lwt lwt.unix))

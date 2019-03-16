@@ -1,0 +1,15 @@
+{
+  "scripts": {
+      "run": "echo hello"
+  },
+  "source": "./package.json",
+  "override": {
+      "build": [
+          "refmterr dune build --root . -j4"
+      ],
+    "install": [
+      "esy-installer revery-fetch.install",
+      "esy-installer example-hackernews.install"
+    ]
+  }
+}

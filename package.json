@@ -10,7 +10,11 @@
   "dependencies": {
     "ocaml": "~4.7.0",
     "revery": "^0.13.0",
-    "@opam/dune": "*"
+    "@opam/dune": "*",
+    "@opam/yojson": "^1.5.0",
+    "@opam/cohttp": "^1.2.0",
+    "@opam/cohttp-lwt-unix": "^1.2.0",
+    "@opam/sexplib": "v0.11.0"
   },
   "resolutions": {
     "@opam/cmdliner": "1.0.2",
